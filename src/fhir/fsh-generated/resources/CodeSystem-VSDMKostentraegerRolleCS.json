@@ -6,7 +6,7 @@
   "id": "VSDMKostentraegerRolleCS",
   "title": "Rolle des Kostenträgers",
   "description": "Rolle des Kostenträgers im Versichertenstammdatenmanagement (VSDM) 2.0",
-  "version": "1.0.0",
+  "version": "1.0.0-rc6",
   "url": "https://gematik.de/fhir/vsdm2/CodeSystem/VSDMKostentraegerRolleCS",
   "concept": [
     {
@@ -20,7 +20,7 @@
   ],
   "experimental": false,
   "publisher": "gematik GmbH",
-  "date": "2023-12-31",
+  "date": "2026-01-30",
   "caseSensitive": true,
   "purpose": "Für GKV-Versicherte wird zwischen dem Haupt-Kostenträger und einem optionalen zweiten abrechnenden Kostenträger unterschieden.",
   "count": 2
