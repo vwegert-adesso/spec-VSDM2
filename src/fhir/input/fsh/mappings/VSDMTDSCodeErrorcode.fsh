@@ -87,3 +87,14 @@ Usage: #definition
       * code = #SERVICE_INTERNAL_SERVER_ERROR
       * display = "Unerwarteter interner Fehler des Fachdienstes VSDM."
       * equivalence = #equal
+
+
+// *********************************************
+// TODO nach Nummernvergabe noch einsortieren - Anforderungsnummer A_xxxxx auch noch ersetzen!
+  * element[+]
+    * code = #79xxx
+    * display = "Die vom Clientsystem angefragte Profilversion wird nicht unterstützt."
+    * target[+]
+      * code = #VSDSERVICE_INVALID_PROFILE_VERSION
+      * display = "Die vom Clientsystem angefragte Profilversion [profile_version] wird nicht unterstützt."
+      * equivalence = #equal

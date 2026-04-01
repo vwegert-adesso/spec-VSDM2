@@ -115,6 +115,17 @@
               "equivalence": "equal"
             }
           ]
+        },
+        {
+          "code": "79xxx",
+          "display": "Die vom Clientsystem angefragte Profilversion wird nicht unterstützt.",
+          "target": [
+            {
+              "code": "VSDSERVICE_INVALID_PROFILE_VERSION",
+              "display": "Die vom Clientsystem angefragte Profilversion [profile_version] wird nicht unterstützt.",
+              "equivalence": "equal"
+            }
+          ]
         }
       ]
     }

@@ -116,6 +116,17 @@
               "equivalence": "wider"
             }
           ]
+        },
+        {
+          "code": "79xxx",
+          "display": "Die vom Clientsystem angefragte Profilversion wird nicht unterstützt.",
+          "target": [
+            {
+              "code": "value",
+              "display": "Element value invalid",
+              "equivalence": "wider"
+            }
+          ]
         }
       ]
     }

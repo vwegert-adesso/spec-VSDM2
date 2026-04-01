@@ -177,3 +177,15 @@ Description: "Fehlercodes des Telemetriedatenservice (TDS) im Versichertenstammd
     """
   * ^property[+].code = #target
   * ^property[=].valueCode = #proxy
+
+// *********************************************
+// TODO nach Nummernvergabe noch einsortieren - Anforderungsnummer A_xxxxx auch noch ersetzen!
+* #79xxx "Die vom Clientsystem angefragte Profilversion wird nicht unterstützt."
+  * ^definition = """
+      Das Clientsystem hat mit dem optionalen Parameter profileVersion eine Profilversion angefordert, die vom Fachdienst nicht unterstützt wird. 
+      Mögliche Ursachen:
+      Implementierungsfehler im Clientsystem.
+      Relevante Anforderung: A_xxxxx.
+    """
+  * ^property[+].code = #target
+  * ^property[=].valueCode = #client

@@ -88,3 +88,12 @@ Usage: #definition
       * display = "Fatal"
       * equivalence = #wider // The target mapping is wider in meaning than the source concept.
 
+// *********************************************
+// TODO nach Nummernvergabe noch einsortieren - Anforderungsnummer A_xxxxx auch noch ersetzen!
+  * element[+]
+    * code = #79xxx
+    * display = "Die vom Clientsystem angefragte Profilversion wird nicht unterstützt."
+    * target[+]
+      * code = #error
+      * display = "Error"
+      * equivalence = #wider // The target mapping is wider in meaning than the source concept.

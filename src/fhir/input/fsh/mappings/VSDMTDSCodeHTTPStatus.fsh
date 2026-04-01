@@ -116,3 +116,13 @@ Usage: #definition
       * code = #400 
       * display = "Bad Request"
       * equivalence = #wider //  target mapping is wider in meaning than the source concept.
+
+// *********************************************
+// TODO nach Nummernvergabe noch einsortieren - Anforderungsnummer A_xxxxx auch noch ersetzen!
+  * element[+]
+    * code = #79xxx
+    * display = "Die vom Clientsystem angefragte Profilversion wird nicht unterstützt."
+    * target[+]
+      * code = #400 
+      * display = "Bad Request"
+      * equivalence = #wider //  target mapping is wider in meaning than the source concept.

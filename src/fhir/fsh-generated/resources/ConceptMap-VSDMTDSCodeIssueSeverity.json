@@ -115,6 +115,17 @@
               "equivalence": "wider"
             }
           ]
+        },
+        {
+          "code": "79xxx",
+          "display": "Die vom Clientsystem angefragte Profilversion wird nicht unterstützt.",
+          "target": [
+            {
+              "code": "error",
+              "display": "Error",
+              "equivalence": "wider"
+            }
+          ]
         }
       ]
     }

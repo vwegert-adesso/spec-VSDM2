@@ -179,6 +179,17 @@
           "valueCode": "proxy"
         }
       ]
+    },
+    {
+      "code": "79xxx",
+      "display": "Die vom Clientsystem angefragte Profilversion wird nicht unterstützt.",
+      "definition": "Das Clientsystem hat mit dem optionalen Parameter profileVersion eine Profilversion angefordert, die vom Fachdienst nicht unterstützt wird. \nMögliche Ursachen:\nImplementierungsfehler im Clientsystem.\nRelevante Anforderung: A_xxxxx.",
+      "property": [
+        {
+          "code": "target",
+          "valueCode": "client"
+        }
+      ]
     }
   ],
   "experimental": false,
@@ -200,5 +211,5 @@
       "type": "string"
     }
   ],
-  "count": 13
+  "count": 14
 }

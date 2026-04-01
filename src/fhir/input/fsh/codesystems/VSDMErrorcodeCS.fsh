@@ -133,3 +133,20 @@ Description: "Fachspezifische Fehlercodes im Versichertenstammdatenmanagement (V
       Wiederholen Sie die Anfrage.
       Beachten Sie dazu das in A_25339 in gemSpec_ZETA beschriebene Exponential-Backoff-Verfahren, um eine Überlastung des Diensts oder eine temporäre Sperre aufgrund zuvieler Zugriffe zu vermeiden.
     """
+
+
+
+// *********************************************
+// TODO nach Nummernvergabe noch einsortieren
+// #79xxx "Die vom Clientsystem angefragte Profilversion wird nicht unterstützt."
+* #VSDSERVICE_INVALID_PROFILE_VERSION "Die vom Clientsystem angefragte Profilversion [profile_version] wird nicht unterstützt."
+  * ^definition = """
+      Die Abfrage der Versichertenstammdaten war technisch fehlerhaft. Bitte wenden Sie sich an Ihren Systemhersteller.
+    """
+  * ^property[+].code = #diagnostics
+  * ^property[=].valueString = """
+      Das Clientsystem hat mit dem optionalen Parameter profileVersion eine Profilversion angefordert, die vom Fachdienst nicht unterstützt wird. 
+      Das Clientsystem muss den Parameter entweder mit einer unterstützten Version gemäß der aktuellen gematik-Vorgaben füllen oder eine Anfrage ohne den Parameter stellen.
+      Wenn das Clientsystem den Parameter nicht übergibt, liefert der Fachdienst die jeweils aktuelle Standardversion.
+      Wiederholen Sie die Anfrage unter Angabe eines gültigen Werts oder ohne den optionalen Parameter.
+    """
